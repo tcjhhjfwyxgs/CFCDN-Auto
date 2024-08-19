@@ -4,7 +4,7 @@ from ipwhois import IPWhois
 
 # 配置
 CF_API_KEY = os.getenv('CF_API_KEY')
-CF_ZONE_YID = os.getenv('CF_ZONE_ID')
+CF_ZONE_ID = os.getenv('CF_ZONE_ID')
 CF_DNS_NAME = os.getenv('CF_DNS_NAME')
 FILE_PATH = 'sgfd_ips.txt'
 SGCS_FILE_PATH = 'CloudflareST/sgcs.txt'
